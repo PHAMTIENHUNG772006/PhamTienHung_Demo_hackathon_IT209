@@ -1,10 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân - Phạm Tiến Hưng</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        .info-item {
+            margin: 15px 0;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .label {
+            font-weight: bold;
+            color: #555;
+        }
+        .value {
+            color: #222;
+        }
+    </style>
 </head>
 <body>
+
+    <div class="card">
+        <h1>Phạm Tiến Hưng</h1>
+        <p style="color: #777; margin-bottom: 25px;">Hồ sơ sinh viên</p>
+        
+        <div class="info-item">
+            <span class="label">Họ và tên:</span>
+            <span class="value">Phạm Tiến Hưng</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Giới tính:</span>
+            <span class="value">Nam</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Tuổi:</span>
+            <span class="value">20</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Trường:</span>
+            <span class="value">PTIT (Học viện Công nghệ Bưu chính Viễn thông)</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Lớp:</span>
+            <span class="value">K24-CNTT2</span>
+        </div>
+    </div>
 
 </body>
 </html>
